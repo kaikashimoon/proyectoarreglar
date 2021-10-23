@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "89198270793",
+    "project_id": "tesis-9b7a2",
+    "storage_bucket": "tesis-9b7a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89198270793:android:0fbd64c759129f7b692298",
+        "android_client_info": {
+          "package_name": "com.krmen.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "89198270793-ss3tn2k2cpup6cbdgc6shq3g4gfku9n9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCg8eiAnyjjOASdCa5CJMj26-c_mkD_mk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "89198270793-ss3tn2k2cpup6cbdgc6shq3g4gfku9n9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

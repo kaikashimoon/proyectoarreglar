@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/nav_menu"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Inicio"/>
+
+
+        <item
+            android:id="@+id/nav_instrumentos"
+            android:icon="@drawable/ic_baseline_music_note_24"
+            android:title="Instrumentos"/>
+
+
+    <item
+        android:id="@+id/nav_teoria"
+        android:icon="@drawable/ic_baseline_library_music_24"
+        android:title="Teoría musical"/>
+
+    <item
+        android:id="@+id/nav_acerca"
+        android:icon="@drawable/ic_baseline_queue_music_24"
+        android:title="Acerca de"/>
+
+        <item
+            android:id="@+id/nav_instrucciones"
+            android:icon="@drawable/ic_baseline_rate_review_24"
+            android:title="Instrucciones"/>
+
+
+        <item android:title="Tutoriales">
+
+
+        <menu>
+
+
+                <item
+                    android:id="@+id/nav_notas"
+                    android:icon="@drawable/ic_baseline_rate_review_24"
+                    android:title="Notas"/>
+                <item
+                    android:id="@+id/nav_intervalos"
+                    android:icon="@drawable/ic_baseline_rate_review_24"
+                    android:title="Intervalos"/>
+                <item
+                    android:id="@+id/nav_acordes"
+                    android:icon="@drawable/ic_baseline_rate_review_24"
+                    android:title="Acordes"/>
+                <item
+                    android:id="@+id/nav_escalas"
+                    android:icon="@drawable/ic_baseline_rate_review_24"
+                    android:title="Escalas"/>
+
+        </menu>
+
+        </item>
+    <item android:title="Perfil">
+
+        <menu>
+    <item
+        android:id="@+id/nav_configuracion"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Configuración"/>
+
+    <item
+        android:id="@+id/nav_salir"
+        android:icon="@drawable/ic_baseline_login_24"
+        android:title="Cerrar sesión"/>
+    </menu>
+
+    </item>
+</group>
+
+</menu>

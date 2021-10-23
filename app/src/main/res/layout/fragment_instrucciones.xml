@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202732"
+    tools:context=".fragments.fragmentInstructions">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tvRulesOne"
+                style="@style/RulesText"
+                android:layout_marginTop="16dp"
+                android:text="@string/rules_one"
+                app:layout_constraintBottom_toTopOf="@+id/tvRulesTwo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvHowToPlay" />
+
+            <TextView
+                android:id="@+id/tvRulesTwo"
+                style="@style/RulesText"
+                android:layout_marginTop="8dp"
+                android:text="@string/rules_two"
+                app:layout_constraintBottom_toTopOf="@+id/tvRulesThree"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvRulesOne" />
+
+            <TextView
+                android:id="@+id/tvRulesThree"
+                style="@style/RulesText"
+                android:layout_marginTop="8dp"
+                android:text="@string/rules_three"
+                app:layout_constraintBottom_toTopOf="@+id/tvRulesFour"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvRulesTwo" />
+
+            <TextView
+                android:id="@+id/tvRulesFour"
+                style="@style/RulesText"
+                android:layout_marginTop="8dp"
+                android:text="@string/rules_four"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvRulesThree" />
+
+            <TextView
+                android:id="@+id/tvHowToPlay"
+                style="@style/RulesText"
+                android:text="@string/rules_how_to_play"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/tvRulesOne"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvRulesTitle"
+                app:layout_constraintVertical_bias="0.25"
+                app:layout_constraintVertical_chainStyle="packed" />
+
+            <TextView
+                android:id="@+id/tvRulesTitle"
+                style="@style/RulesText"
+                android:text="@string/rules_title"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.187"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.083" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
